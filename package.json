@@ -3,15 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^5.5.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "antd": "^5.8.4",
-    "axios": "^1.5.0",
+    "antd": "^5.22.7",
+    "axios": "^1.7.9",
     "concurrently": "^8.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-speech-recognition": "^3.10.0",
+    "speak-tts": "^2.0.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,22 +26,21 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-  "extends": [
-    "react-app",
-    "react-app/jest"
-  ]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
-  ],
-  "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
-      ]
-    }
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
-  
+}
